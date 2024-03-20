@@ -15,7 +15,7 @@ using Printf: @printf
 
 function main()
     if(length(ARGS) != 11)
-        println("Usage: $PROGRAM_FILE <instance-file> <streak-limit> <no-repeat> <beam-width> <dead_teams_check> <team-ordering> <reflective-symmetry-breaking> <relative-sigma> <cvrp-heuristic-respect-home-games> <first-k-layers-noisy>")
+	println("Usage: $PROGRAM_FILE <instance-file> <streak-limit> <no-repeat> <beam-width> <dead_teams_check> <team-ordering> <reflective-symmetry-breaking> <relative-sigma> <cvrp-heuristic-respect-home-games> <first-k-layers-noisy> <run_final_ls>")
         exit(1)
     end
 

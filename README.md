@@ -54,3 +54,16 @@ For the latter, there is also an iterative variant, which increases the beam wid
 > Aris Anagnostopoulos, Laurent Michel, Pascal Van Hentenryck, and Yannis Vergados.
 > A simulated annealing approach to the traveling tournament problem.
 > Journal of Scheduling, 9(2):177–193, 2006.
+
+ADDED BY DAVID
+
+> I had to install the package PyCall first in julie
+> $ julia
+> $ import Pkg;
+> $ Pkg.add("PyCall")
+> $ ENV["PYTHON"] = "/usr/bin/python3"
+> $ Pkg.build("PyCall")
+> Without the environment setting, I got an error for the PyCall. See also: https://discourse.julialang.org/t/build-pycall-error/59252
+
+Additionally the command line provided above for ttp_beam_search.jl requires one argument too few. I think it should be:
+$ julia ttp_beam_search.jl insts/circ/circ14.txt 3 true data/circ14_cvrph.pkl.bz2 10 true random none 0.001 -1 false
