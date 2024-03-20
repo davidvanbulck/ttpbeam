@@ -1,0 +1,836 @@
+<?xml version="1.0" ?>
+<Instance>
+   <MetaData>
+      <InstanceName>TSPGen_n_26_26</InstanceName>
+      <DataType>A</DataType>
+      <Contributor>Van Bulck D., Yang F., Goossens D.</Contributor>
+      <Date year="2022" month="10"/>
+      <Country/>
+      <Description>Artificial problem instance based on TSPGen</Description>
+      <Remarks/>
+   </MetaData>
+   <Structure>
+      <Format leagueIds="0">
+         <numberRoundRobin>2</numberRoundRobin>
+         <compactness>C</compactness>
+         <gameMode>NULL</gameMode>
+      </Format>
+      <AdditionalGames/>
+   </Structure>
+   <ObjectiveFunction>
+      <Objective>TR</Objective>
+   </ObjectiveFunction>
+   <Data>
+      <Distances>
+         <distance dist="0" team1="0" team2="0"/>
+         <distance dist="628" team1="0" team2="1"/>
+         <distance dist="426" team1="0" team2="2"/>
+         <distance dist="354" team1="0" team2="3"/>
+         <distance dist="508" team1="0" team2="4"/>
+         <distance dist="240" team1="0" team2="5"/>
+         <distance dist="559" team1="0" team2="6"/>
+         <distance dist="24" team1="0" team2="7"/>
+         <distance dist="458" team1="0" team2="8"/>
+         <distance dist="391" team1="0" team2="9"/>
+         <distance dist="183" team1="0" team2="10"/>
+         <distance dist="357" team1="0" team2="11"/>
+         <distance dist="375" team1="0" team2="12"/>
+         <distance dist="173" team1="0" team2="13"/>
+         <distance dist="432" team1="0" team2="14"/>
+         <distance dist="551" team1="0" team2="15"/>
+         <distance dist="524" team1="0" team2="16"/>
+         <distance dist="284" team1="0" team2="17"/>
+         <distance dist="451" team1="0" team2="18"/>
+         <distance dist="80" team1="0" team2="19"/>
+         <distance dist="445" team1="0" team2="20"/>
+         <distance dist="393" team1="0" team2="21"/>
+         <distance dist="503" team1="0" team2="22"/>
+         <distance dist="614" team1="0" team2="23"/>
+         <distance dist="526" team1="0" team2="24"/>
+         <distance dist="191" team1="0" team2="25"/>
+         <distance dist="628" team1="1" team2="0"/>
+         <distance dist="0" team1="1" team2="1"/>
+         <distance dist="258" team1="1" team2="2"/>
+         <distance dist="974" team1="1" team2="3"/>
+         <distance dist="1132" team1="1" team2="4"/>
+         <distance dist="454" team1="1" team2="5"/>
+         <distance dist="760" team1="1" team2="6"/>
+         <distance dist="605" team1="1" team2="7"/>
+         <distance dist="231" team1="1" team2="8"/>
+         <distance dist="771" team1="1" team2="9"/>
+         <distance dist="512" team1="1" team2="10"/>
+         <distance dist="947" team1="1" team2="11"/>
+         <distance dist="959" team1="1" team2="12"/>
+         <distance dist="487" team1="1" team2="13"/>
+         <distance dist="736" team1="1" team2="14"/>
+         <distance dist="626" team1="1" team2="15"/>
+         <distance dist="104" team1="1" team2="16"/>
+         <distance dist="740" team1="1" team2="17"/>
+         <distance dist="484" team1="1" team2="18"/>
+         <distance dist="611" team1="1" team2="19"/>
+         <distance dist="438" team1="1" team2="20"/>
+         <distance dist="466" team1="1" team2="21"/>
+         <distance dist="1130" team1="1" team2="22"/>
+         <distance dist="832" team1="1" team2="23"/>
+         <distance dist="645" team1="1" team2="24"/>
+         <distance dist="707" team1="1" team2="25"/>
+         <distance dist="426" team1="2" team2="0"/>
+         <distance dist="258" team1="2" team2="1"/>
+         <distance dist="0" team1="2" team2="2"/>
+         <distance dist="748" team1="2" team2="3"/>
+         <distance dist="906" team1="2" team2="4"/>
+         <distance dist="341" team1="2" team2="5"/>
+         <distance dist="517" team1="2" team2="6"/>
+         <distance dist="402" team1="2" team2="7"/>
+         <distance dist="33" team1="2" team2="8"/>
+         <distance dist="513" team1="2" team2="9"/>
+         <distance dist="273" team1="2" team2="10"/>
+         <distance dist="707" team1="2" team2="11"/>
+         <distance dist="718" team1="2" team2="12"/>
+         <distance dist="260" team1="2" team2="13"/>
+         <distance dist="674" team1="2" team2="14"/>
+         <distance dist="398" team1="2" team2="15"/>
+         <distance dist="171" team1="2" team2="16"/>
+         <distance dist="486" team1="2" team2="17"/>
+         <distance dist="245" team1="2" team2="18"/>
+         <distance dist="387" team1="2" team2="19"/>
+         <distance dist="200" team1="2" team2="20"/>
+         <distance dist="214" team1="2" team2="21"/>
+         <distance dist="910" team1="2" team2="22"/>
+         <distance dist="590" team1="2" team2="23"/>
+         <distance dist="409" team1="2" team2="24"/>
+         <distance dist="463" team1="2" team2="25"/>
+         <distance dist="354" team1="3" team2="0"/>
+         <distance dist="974" team1="3" team2="1"/>
+         <distance dist="748" team1="3" team2="2"/>
+         <distance dist="0" team1="3" team2="3"/>
+         <distance dist="158" team1="3" team2="4"/>
+         <distance dist="585" team1="3" team2="5"/>
+         <distance dist="638" team1="3" team2="6"/>
+         <distance dist="374" team1="3" team2="7"/>
+         <distance dist="781" team1="3" team2="8"/>
+         <distance dist="424" team1="3" team2="9"/>
+         <distance dist="475" team1="3" team2="10"/>
+         <distance dist="110" team1="3" team2="11"/>
+         <distance dist="127" team1="3" team2="12"/>
+         <distance dist="490" team1="3" team2="13"/>
+         <distance dist="643" team1="3" team2="14"/>
+         <distance dist="710" team1="3" team2="15"/>
+         <distance dist="870" team1="3" team2="16"/>
+         <distance dist="339" team1="3" team2="17"/>
+         <distance dist="679" team1="3" team2="18"/>
+         <distance dist="364" team1="3" team2="19"/>
+         <distance dist="695" team1="3" team2="20"/>
+         <distance dist="637" team1="3" team2="21"/>
+         <distance dist="166" team1="3" team2="22"/>
+         <distance dist="656" team1="3" team2="23"/>
+         <distance dist="671" team1="3" team2="24"/>
+         <distance dist="300" team1="3" team2="25"/>
+         <distance dist="508" team1="4" team2="0"/>
+         <distance dist="1132" team1="4" team2="1"/>
+         <distance dist="906" team1="4" team2="2"/>
+         <distance dist="158" team1="4" team2="3"/>
+         <distance dist="0" team1="4" team2="4"/>
+         <distance dist="732" team1="4" team2="5"/>
+         <distance dist="759" team1="4" team2="6"/>
+         <distance dist="529" team1="4" team2="7"/>
+         <distance dist="940" team1="4" team2="8"/>
+         <distance dist="551" team1="4" team2="9"/>
+         <distance dist="633" team1="4" team2="10"/>
+         <distance dist="227" team1="4" team2="11"/>
+         <distance dist="230" team1="4" team2="12"/>
+         <distance dist="649" team1="4" team2="13"/>
+         <distance dist="744" team1="4" team2="14"/>
+         <distance dist="847" team1="4" team2="15"/>
+         <distance dist="1027" team1="4" team2="16"/>
+         <distance dist="481" team1="4" team2="17"/>
+         <distance dist="830" team1="4" team2="18"/>
+         <distance dist="522" team1="4" team2="19"/>
+         <distance dist="848" team1="4" team2="20"/>
+         <distance dist="790" team1="4" team2="21"/>
+         <distance dist="43" team1="4" team2="22"/>
+         <distance dist="766" team1="4" team2="23"/>
+         <distance dist="806" team1="4" team2="24"/>
+         <distance dist="455" team1="4" team2="25"/>
+         <distance dist="240" team1="5" team2="0"/>
+         <distance dist="454" team1="5" team2="1"/>
+         <distance dist="341" team1="5" team2="2"/>
+         <distance dist="585" team1="5" team2="3"/>
+         <distance dist="732" team1="5" team2="4"/>
+         <distance dist="0" team1="5" team2="5"/>
+         <distance dist="695" team1="5" team2="6"/>
+         <distance dist="227" team1="5" team2="7"/>
+         <distance dist="365" team1="5" team2="8"/>
+         <distance dist="577" team1="5" team2="9"/>
+         <distance dist="274" team1="5" team2="10"/>
+         <distance dist="597" team1="5" team2="11"/>
+         <distance dist="615" team1="5" team2="12"/>
+         <distance dist="232" team1="5" team2="13"/>
+         <distance dist="335" team1="5" team2="14"/>
+         <distance dist="635" team1="5" team2="15"/>
+         <distance dist="359" team1="5" team2="16"/>
+         <distance dist="488" team1="5" team2="17"/>
+         <distance dist="494" team1="5" team2="18"/>
+         <distance dist="277" team1="5" team2="19"/>
+         <distance dist="466" team1="5" team2="20"/>
+         <distance dist="435" team1="5" team2="21"/>
+         <distance dist="721" team1="5" team2="22"/>
+         <distance dist="762" team1="5" team2="23"/>
+         <distance dist="624" team1="5" team2="24"/>
+         <distance dist="408" team1="5" team2="25"/>
+         <distance dist="559" team1="6" team2="0"/>
+         <distance dist="760" team1="6" team2="1"/>
+         <distance dist="517" team1="6" team2="2"/>
+         <distance dist="638" team1="6" team2="3"/>
+         <distance dist="759" team1="6" team2="4"/>
+         <distance dist="695" team1="6" team2="5"/>
+         <distance dist="0" team1="6" team2="6"/>
+         <distance dist="549" team1="6" team2="7"/>
+         <distance dist="535" team1="6" team2="8"/>
+         <distance dist="214" team1="6" team2="9"/>
+         <distance dist="424" team1="6" team2="10"/>
+         <distance dist="536" team1="6" team2="11"/>
+         <distance dist="529" team1="6" team2="12"/>
+         <distance dist="464" team1="6" team2="13"/>
+         <distance dist="983" team1="6" team2="14"/>
+         <distance dist="151" team1="6" team2="15"/>
+         <distance dist="687" team1="6" team2="16"/>
+         <distance dist="316" team1="6" team2="17"/>
+         <distance dist="276" team1="6" team2="18"/>
+         <distance dist="480" team1="6" team2="19"/>
+         <distance dist="322" team1="6" team2="20"/>
+         <distance dist="305" team1="6" team2="21"/>
+         <distance dist="786" team1="6" team2="22"/>
+         <distance dist="73" team1="6" team2="23"/>
+         <distance dist="119" team1="6" team2="24"/>
+         <distance dist="399" team1="6" team2="25"/>
+         <distance dist="24" team1="7" team2="0"/>
+         <distance dist="605" team1="7" team2="1"/>
+         <distance dist="402" team1="7" team2="2"/>
+         <distance dist="374" team1="7" team2="3"/>
+         <distance dist="529" team1="7" team2="4"/>
+         <distance dist="227" team1="7" team2="5"/>
+         <distance dist="549" team1="7" team2="6"/>
+         <distance dist="0" team1="7" team2="7"/>
+         <distance dist="435" team1="7" team2="8"/>
+         <distance dist="386" team1="7" team2="9"/>
+         <distance dist="162" team1="7" team2="10"/>
+         <distance dist="372" team1="7" team2="11"/>
+         <distance dist="390" team1="7" team2="12"/>
+         <distance dist="150" team1="7" team2="13"/>
+         <distance dist="438" team1="7" team2="14"/>
+         <distance dist="535" team1="7" team2="15"/>
+         <distance dist="501" team1="7" team2="16"/>
+         <distance dist="282" team1="7" team2="17"/>
+         <distance dist="431" team1="7" team2="18"/>
+         <distance dist="69" team1="7" team2="19"/>
+         <distance dist="423" team1="7" team2="20"/>
+         <distance dist="372" team1="7" team2="21"/>
+         <distance dist="525" team1="7" team2="22"/>
+         <distance dist="605" team1="7" team2="23"/>
+         <distance dist="511" team1="7" team2="24"/>
+         <distance dist="192" team1="7" team2="25"/>
+         <distance dist="458" team1="8" team2="0"/>
+         <distance dist="231" team1="8" team2="1"/>
+         <distance dist="33" team1="8" team2="2"/>
+         <distance dist="781" team1="8" team2="3"/>
+         <distance dist="940" team1="8" team2="4"/>
+         <distance dist="365" team1="8" team2="5"/>
+         <distance dist="535" team1="8" team2="6"/>
+         <distance dist="435" team1="8" team2="7"/>
+         <distance dist="0" team1="8" team2="8"/>
+         <distance dist="541" team1="8" team2="9"/>
+         <distance dist="307" team1="8" team2="10"/>
+         <distance dist="740" team1="8" team2="11"/>
+         <distance dist="750" team1="8" team2="12"/>
+         <distance dist="293" team1="8" team2="13"/>
+         <distance dist="696" team1="8" team2="14"/>
+         <distance dist="410" team1="8" team2="15"/>
+         <distance dist="152" team1="8" team2="16"/>
+         <distance dist="517" team1="8" team2="17"/>
+         <distance dist="260" team1="8" team2="18"/>
+         <distance dist="421" team1="8" team2="19"/>
+         <distance dist="214" team1="8" team2="20"/>
+         <distance dist="235" team1="8" team2="21"/>
+         <distance dist="943" team1="8" team2="22"/>
+         <distance dist="608" team1="8" team2="23"/>
+         <distance dist="424" team1="8" team2="24"/>
+         <distance dist="496" team1="8" team2="25"/>
+         <distance dist="391" team1="9" team2="0"/>
+         <distance dist="771" team1="9" team2="1"/>
+         <distance dist="513" team1="9" team2="2"/>
+         <distance dist="424" team1="9" team2="3"/>
+         <distance dist="551" team1="9" team2="4"/>
+         <distance dist="577" team1="9" team2="5"/>
+         <distance dist="214" team1="9" team2="6"/>
+         <distance dist="386" team1="9" team2="7"/>
+         <distance dist="541" team1="9" team2="8"/>
+         <distance dist="0" team1="9" team2="9"/>
+         <distance dist="312" team1="9" team2="10"/>
+         <distance dist="325" team1="9" team2="11"/>
+         <distance dist="320" team1="9" team2="12"/>
+         <distance dist="354" team1="9" team2="13"/>
+         <distance dist="823" team1="9" team2="14"/>
+         <distance dist="300" team1="9" team2="15"/>
+         <distance dist="679" team1="9" team2="16"/>
+         <distance dist="113" team1="9" team2="17"/>
+         <distance dist="330" team1="9" team2="18"/>
+         <distance dist="318" team1="9" team2="19"/>
+         <distance dist="365" team1="9" team2="20"/>
+         <distance dist="317" team1="9" team2="21"/>
+         <distance dist="576" team1="9" team2="22"/>
+         <distance dist="243" team1="9" team2="23"/>
+         <distance dist="259" team1="9" team2="24"/>
+         <distance dist="207" team1="9" team2="25"/>
+         <distance dist="183" team1="10" team2="0"/>
+         <distance dist="512" team1="10" team2="1"/>
+         <distance dist="273" team1="10" team2="2"/>
+         <distance dist="475" team1="10" team2="3"/>
+         <distance dist="633" team1="10" team2="4"/>
+         <distance dist="274" team1="10" team2="5"/>
+         <distance dist="424" team1="10" team2="6"/>
+         <distance dist="162" team1="10" team2="7"/>
+         <distance dist="307" team1="10" team2="8"/>
+         <distance dist="312" team1="10" team2="9"/>
+         <distance dist="0" team1="10" team2="10"/>
+         <distance dist="436" team1="10" team2="11"/>
+         <distance dist="448" team1="10" team2="12"/>
+         <distance dist="43" team1="10" team2="13"/>
+         <distance dist="567" team1="10" team2="14"/>
+         <distance dist="384" team1="10" team2="15"/>
+         <distance dist="410" team1="10" team2="16"/>
+         <distance dist="242" team1="10" team2="17"/>
+         <distance dist="269" team1="10" team2="18"/>
+         <distance dist="121" team1="10" team2="19"/>
+         <distance dist="261" team1="10" team2="20"/>
+         <distance dist="210" team1="10" team2="21"/>
+         <distance dist="638" team1="10" team2="22"/>
+         <distance dist="488" team1="10" team2="23"/>
+         <distance dist="365" team1="10" team2="24"/>
+         <distance dist="195" team1="10" team2="25"/>
+         <distance dist="357" team1="11" team2="0"/>
+         <distance dist="947" team1="11" team2="1"/>
+         <distance dist="707" team1="11" team2="2"/>
+         <distance dist="110" team1="11" team2="3"/>
+         <distance dist="227" team1="11" team2="4"/>
+         <distance dist="597" team1="11" team2="5"/>
+         <distance dist="536" team1="11" team2="6"/>
+         <distance dist="372" team1="11" team2="7"/>
+         <distance dist="740" team1="11" team2="8"/>
+         <distance dist="325" team1="11" team2="9"/>
+         <distance dist="436" team1="11" team2="10"/>
+         <distance dist="0" team1="11" team2="11"/>
+         <distance dist="22" team1="11" team2="12"/>
+         <distance dist="460" team1="11" team2="13"/>
+         <distance dist="707" team1="11" team2="14"/>
+         <distance dist="620" team1="11" team2="15"/>
+         <distance dist="844" team1="11" team2="16"/>
+         <distance dist="255" team1="11" team2="17"/>
+         <distance dist="607" team1="11" team2="18"/>
+         <distance dist="342" team1="11" team2="19"/>
+         <distance dist="628" team1="11" team2="20"/>
+         <distance dist="571" team1="11" team2="21"/>
+         <distance dist="251" team1="11" team2="22"/>
+         <distance dist="551" team1="11" team2="23"/>
+         <distance dist="579" team1="11" team2="24"/>
+         <distance dist="244" team1="11" team2="25"/>
+         <distance dist="375" team1="12" team2="0"/>
+         <distance dist="959" team1="12" team2="1"/>
+         <distance dist="718" team1="12" team2="2"/>
+         <distance dist="127" team1="12" team2="3"/>
+         <distance dist="230" team1="12" team2="4"/>
+         <distance dist="615" team1="12" team2="5"/>
+         <distance dist="529" team1="12" team2="6"/>
+         <distance dist="390" team1="12" team2="7"/>
+         <distance dist="750" team1="12" team2="8"/>
+         <distance dist="320" team1="12" team2="9"/>
+         <distance dist="448" team1="12" team2="10"/>
+         <distance dist="22" team1="12" team2="11"/>
+         <distance dist="0" team1="12" team2="12"/>
+         <distance dist="473" team1="12" team2="13"/>
+         <distance dist="729" team1="12" team2="14"/>
+         <distance dist="617" team1="12" team2="15"/>
+         <distance dist="857" team1="12" team2="16"/>
+         <distance dist="257" team1="12" team2="17"/>
+         <distance dist="610" team1="12" team2="18"/>
+         <distance dist="357" team1="12" team2="19"/>
+         <distance dist="632" team1="12" team2="20"/>
+         <distance dist="576" team1="12" team2="21"/>
+         <distance dist="257" team1="12" team2="22"/>
+         <distance dist="541" team1="12" team2="23"/>
+         <distance dist="577" team1="12" team2="24"/>
+         <distance dist="254" team1="12" team2="25"/>
+         <distance dist="173" team1="13" team2="0"/>
+         <distance dist="487" team1="13" team2="1"/>
+         <distance dist="260" team1="13" team2="2"/>
+         <distance dist="490" team1="13" team2="3"/>
+         <distance dist="649" team1="13" team2="4"/>
+         <distance dist="232" team1="13" team2="5"/>
+         <distance dist="464" team1="13" team2="6"/>
+         <distance dist="150" team1="13" team2="7"/>
+         <distance dist="293" team1="13" team2="8"/>
+         <distance dist="354" team1="13" team2="9"/>
+         <distance dist="43" team1="13" team2="10"/>
+         <distance dist="460" team1="13" team2="11"/>
+         <distance dist="473" team1="13" team2="12"/>
+         <distance dist="0" team1="13" team2="13"/>
+         <distance dist="532" team1="13" team2="14"/>
+         <distance dist="417" team1="13" team2="15"/>
+         <distance dist="384" team1="13" team2="16"/>
+         <distance dist="281" team1="13" team2="17"/>
+         <distance dist="294" team1="13" team2="18"/>
+         <distance dist="128" team1="13" team2="19"/>
+         <distance dist="280" team1="13" team2="20"/>
+         <distance dist="233" team1="13" team2="21"/>
+         <distance dist="651" team1="13" team2="22"/>
+         <distance dist="530" team1="13" team2="23"/>
+         <distance dist="401" team1="13" team2="24"/>
+         <distance dist="225" team1="13" team2="25"/>
+         <distance dist="432" team1="14" team2="0"/>
+         <distance dist="736" team1="14" team2="1"/>
+         <distance dist="674" team1="14" team2="2"/>
+         <distance dist="643" team1="14" team2="3"/>
+         <distance dist="744" team1="14" team2="4"/>
+         <distance dist="335" team1="14" team2="5"/>
+         <distance dist="983" team1="14" team2="6"/>
+         <distance dist="438" team1="14" team2="7"/>
+         <distance dist="696" team1="14" team2="8"/>
+         <distance dist="823" team1="14" team2="9"/>
+         <distance dist="567" team1="14" team2="10"/>
+         <distance dist="707" team1="14" team2="11"/>
+         <distance dist="729" team1="14" team2="12"/>
+         <distance dist="532" team1="14" team2="13"/>
+         <distance dist="0" team1="14" team2="14"/>
+         <distance dist="949" team1="14" team2="15"/>
+         <distance dist="659" team1="14" team2="16"/>
+         <distance dist="714" team1="14" team2="17"/>
+         <distance dist="818" team1="14" team2="18"/>
+         <distance dist="507" team1="14" team2="19"/>
+         <distance dist="795" team1="14" team2="20"/>
+         <distance dist="758" team1="14" team2="21"/>
+         <distance dist="715" team1="14" team2="22"/>
+         <distance dist="1042" team1="14" team2="23"/>
+         <distance dist="932" team1="14" team2="24"/>
+         <distance dist="620" team1="14" team2="25"/>
+         <distance dist="551" team1="15" team2="0"/>
+         <distance dist="626" team1="15" team2="1"/>
+         <distance dist="398" team1="15" team2="2"/>
+         <distance dist="710" team1="15" team2="3"/>
+         <distance dist="847" team1="15" team2="4"/>
+         <distance dist="635" team1="15" team2="5"/>
+         <distance dist="151" team1="15" team2="6"/>
+         <distance dist="535" team1="15" team2="7"/>
+         <distance dist="410" team1="15" team2="8"/>
+         <distance dist="300" team1="15" team2="9"/>
+         <distance dist="384" team1="15" team2="10"/>
+         <distance dist="620" team1="15" team2="11"/>
+         <distance dist="617" team1="15" team2="12"/>
+         <distance dist="417" team1="15" team2="13"/>
+         <distance dist="949" team1="15" team2="14"/>
+         <distance dist="0" team1="15" team2="15"/>
+         <distance dist="562" team1="15" team2="16"/>
+         <distance dist="371" team1="15" team2="17"/>
+         <distance dist="155" team1="15" team2="18"/>
+         <distance dist="473" team1="15" team2="19"/>
+         <distance dist="198" team1="15" team2="20"/>
+         <distance dist="204" team1="15" team2="21"/>
+         <distance dist="869" team1="15" team2="22"/>
+         <distance dist="216" team1="15" team2="23"/>
+         <distance dist="42" team1="15" team2="24"/>
+         <distance dist="431" team1="15" team2="25"/>
+         <distance dist="524" team1="16" team2="0"/>
+         <distance dist="104" team1="16" team2="1"/>
+         <distance dist="171" team1="16" team2="2"/>
+         <distance dist="870" team1="16" team2="3"/>
+         <distance dist="1027" team1="16" team2="4"/>
+         <distance dist="359" team1="16" team2="5"/>
+         <distance dist="687" team1="16" team2="6"/>
+         <distance dist="501" team1="16" team2="7"/>
+         <distance dist="152" team1="16" team2="8"/>
+         <distance dist="679" team1="16" team2="9"/>
+         <distance dist="410" team1="16" team2="10"/>
+         <distance dist="844" team1="16" team2="11"/>
+         <distance dist="857" team1="16" team2="12"/>
+         <distance dist="384" team1="16" team2="13"/>
+         <distance dist="659" team1="16" team2="14"/>
+         <distance dist="562" team1="16" team2="15"/>
+         <distance dist="0" team1="16" team2="16"/>
+         <distance dist="642" team1="16" team2="17"/>
+         <distance dist="412" team1="16" team2="18"/>
+         <distance dist="507" team1="16" team2="19"/>
+         <distance dist="366" team1="16" team2="20"/>
+         <distance dist="385" team1="16" team2="21"/>
+         <distance dist="1026" team1="16" team2="22"/>
+         <distance dist="760" team1="16" team2="23"/>
+         <distance dist="576" team1="16" team2="24"/>
+         <distance dist="605" team1="16" team2="25"/>
+         <distance dist="284" team1="17" team2="0"/>
+         <distance dist="740" team1="17" team2="1"/>
+         <distance dist="486" team1="17" team2="2"/>
+         <distance dist="339" team1="17" team2="3"/>
+         <distance dist="481" team1="17" team2="4"/>
+         <distance dist="488" team1="17" team2="5"/>
+         <distance dist="316" team1="17" team2="6"/>
+         <distance dist="282" team1="17" team2="7"/>
+         <distance dist="517" team1="17" team2="8"/>
+         <distance dist="113" team1="17" team2="9"/>
+         <distance dist="242" team1="17" team2="10"/>
+         <distance dist="255" team1="17" team2="11"/>
+         <distance dist="257" team1="17" team2="12"/>
+         <distance dist="281" team1="17" team2="13"/>
+         <distance dist="714" team1="17" team2="14"/>
+         <distance dist="371" team1="17" team2="15"/>
+         <distance dist="642" team1="17" team2="16"/>
+         <distance dist="0" team1="17" team2="17"/>
+         <distance dist="353" team1="17" team2="18"/>
+         <distance dist="216" team1="17" team2="19"/>
+         <distance dist="377" team1="17" team2="20"/>
+         <distance dist="322" team1="17" team2="21"/>
+         <distance dist="500" team1="17" team2="22"/>
+         <distance dist="354" team1="17" team2="23"/>
+         <distance dist="333" team1="17" team2="24"/>
+         <distance dist="95" team1="17" team2="25"/>
+         <distance dist="451" team1="18" team2="0"/>
+         <distance dist="484" team1="18" team2="1"/>
+         <distance dist="245" team1="18" team2="2"/>
+         <distance dist="679" team1="18" team2="3"/>
+         <distance dist="830" team1="18" team2="4"/>
+         <distance dist="494" team1="18" team2="5"/>
+         <distance dist="276" team1="18" team2="6"/>
+         <distance dist="431" team1="18" team2="7"/>
+         <distance dist="260" team1="18" team2="8"/>
+         <distance dist="330" team1="18" team2="9"/>
+         <distance dist="269" team1="18" team2="10"/>
+         <distance dist="607" team1="18" team2="11"/>
+         <distance dist="610" team1="18" team2="12"/>
+         <distance dist="294" team1="18" team2="13"/>
+         <distance dist="818" team1="18" team2="14"/>
+         <distance dist="155" team1="18" team2="15"/>
+         <distance dist="412" team1="18" team2="16"/>
+         <distance dist="353" team1="18" team2="17"/>
+         <distance dist="0" team1="18" team2="18"/>
+         <distance dist="379" team1="18" team2="19"/>
+         <distance dist="46" team1="18" team2="20"/>
+         <distance dist="60" team1="18" team2="21"/>
+         <distance dist="845" team1="18" team2="22"/>
+         <distance dist="349" team1="18" team2="23"/>
+         <distance dist="164" team1="18" team2="24"/>
+         <distance dist="381" team1="18" team2="25"/>
+         <distance dist="80" team1="19" team2="0"/>
+         <distance dist="611" team1="19" team2="1"/>
+         <distance dist="387" team1="19" team2="2"/>
+         <distance dist="364" team1="19" team2="3"/>
+         <distance dist="522" team1="19" team2="4"/>
+         <distance dist="277" team1="19" team2="5"/>
+         <distance dist="480" team1="19" team2="6"/>
+         <distance dist="69" team1="19" team2="7"/>
+         <distance dist="421" team1="19" team2="8"/>
+         <distance dist="318" team1="19" team2="9"/>
+         <distance dist="121" team1="19" team2="10"/>
+         <distance dist="342" team1="19" team2="11"/>
+         <distance dist="357" team1="19" team2="12"/>
+         <distance dist="128" team1="19" team2="13"/>
+         <distance dist="507" team1="19" team2="14"/>
+         <distance dist="473" team1="19" team2="15"/>
+         <distance dist="507" team1="19" team2="16"/>
+         <distance dist="216" team1="19" team2="17"/>
+         <distance dist="379" team1="19" team2="18"/>
+         <distance dist="0" team1="19" team2="19"/>
+         <distance dist="378" team1="19" team2="20"/>
+         <distance dist="323" team1="19" team2="21"/>
+         <distance dist="523" team1="19" team2="22"/>
+         <distance dist="535" team1="19" team2="23"/>
+         <distance dist="447" team1="19" team2="24"/>
+         <distance dist="131" team1="19" team2="25"/>
+         <distance dist="445" team1="20" team2="0"/>
+         <distance dist="438" team1="20" team2="1"/>
+         <distance dist="200" team1="20" team2="2"/>
+         <distance dist="695" team1="20" team2="3"/>
+         <distance dist="848" team1="20" team2="4"/>
+         <distance dist="466" team1="20" team2="5"/>
+         <distance dist="322" team1="20" team2="6"/>
+         <distance dist="423" team1="20" team2="7"/>
+         <distance dist="214" team1="20" team2="8"/>
+         <distance dist="365" team1="20" team2="9"/>
+         <distance dist="261" team1="20" team2="10"/>
+         <distance dist="628" team1="20" team2="11"/>
+         <distance dist="632" team1="20" team2="12"/>
+         <distance dist="280" team1="20" team2="13"/>
+         <distance dist="795" team1="20" team2="14"/>
+         <distance dist="198" team1="20" team2="15"/>
+         <distance dist="366" team1="20" team2="16"/>
+         <distance dist="377" team1="20" team2="17"/>
+         <distance dist="46" team1="20" team2="18"/>
+         <distance dist="378" team1="20" team2="19"/>
+         <distance dist="0" team1="20" team2="20"/>
+         <distance dist="58" team1="20" team2="21"/>
+         <distance dist="860" team1="20" team2="22"/>
+         <distance dist="395" team1="20" team2="23"/>
+         <distance dist="210" team1="20" team2="24"/>
+         <distance dist="394" team1="20" team2="25"/>
+         <distance dist="393" team1="21" team2="0"/>
+         <distance dist="466" team1="21" team2="1"/>
+         <distance dist="214" team1="21" team2="2"/>
+         <distance dist="637" team1="21" team2="3"/>
+         <distance dist="790" team1="21" team2="4"/>
+         <distance dist="435" team1="21" team2="5"/>
+         <distance dist="305" team1="21" team2="6"/>
+         <distance dist="372" team1="21" team2="7"/>
+         <distance dist="235" team1="21" team2="8"/>
+         <distance dist="317" team1="21" team2="9"/>
+         <distance dist="210" team1="21" team2="10"/>
+         <distance dist="571" team1="21" team2="11"/>
+         <distance dist="576" team1="21" team2="12"/>
+         <distance dist="233" team1="21" team2="13"/>
+         <distance dist="758" team1="21" team2="14"/>
+         <distance dist="204" team1="21" team2="15"/>
+         <distance dist="385" team1="21" team2="16"/>
+         <distance dist="322" team1="21" team2="17"/>
+         <distance dist="60" team1="21" team2="18"/>
+         <distance dist="323" team1="21" team2="19"/>
+         <distance dist="58" team1="21" team2="20"/>
+         <distance dist="0" team1="21" team2="21"/>
+         <distance dist="803" team1="21" team2="22"/>
+         <distance dist="378" team1="21" team2="23"/>
+         <distance dist="204" team1="21" team2="24"/>
+         <distance dist="337" team1="21" team2="25"/>
+         <distance dist="503" team1="22" team2="0"/>
+         <distance dist="1130" team1="22" team2="1"/>
+         <distance dist="910" team1="22" team2="2"/>
+         <distance dist="166" team1="22" team2="3"/>
+         <distance dist="43" team1="22" team2="4"/>
+         <distance dist="721" team1="22" team2="5"/>
+         <distance dist="786" team1="22" team2="6"/>
+         <distance dist="525" team1="22" team2="7"/>
+         <distance dist="943" team1="22" team2="8"/>
+         <distance dist="576" team1="22" team2="9"/>
+         <distance dist="638" team1="22" team2="10"/>
+         <distance dist="251" team1="22" team2="11"/>
+         <distance dist="257" team1="22" team2="12"/>
+         <distance dist="651" team1="22" team2="13"/>
+         <distance dist="715" team1="22" team2="14"/>
+         <distance dist="869" team1="22" team2="15"/>
+         <distance dist="1026" team1="22" team2="16"/>
+         <distance dist="500" team1="22" team2="17"/>
+         <distance dist="845" team1="22" team2="18"/>
+         <distance dist="523" team1="22" team2="19"/>
+         <distance dist="860" team1="22" team2="20"/>
+         <distance dist="803" team1="22" team2="21"/>
+         <distance dist="0" team1="22" team2="22"/>
+         <distance dist="797" team1="22" team2="23"/>
+         <distance dist="829" team1="22" team2="24"/>
+         <distance dist="466" team1="22" team2="25"/>
+         <distance dist="614" team1="23" team2="0"/>
+         <distance dist="832" team1="23" team2="1"/>
+         <distance dist="590" team1="23" team2="2"/>
+         <distance dist="656" team1="23" team2="3"/>
+         <distance dist="766" team1="23" team2="4"/>
+         <distance dist="762" team1="23" team2="5"/>
+         <distance dist="73" team1="23" team2="6"/>
+         <distance dist="605" team1="23" team2="7"/>
+         <distance dist="608" team1="23" team2="8"/>
+         <distance dist="243" team1="23" team2="9"/>
+         <distance dist="488" team1="23" team2="10"/>
+         <distance dist="551" team1="23" team2="11"/>
+         <distance dist="541" team1="23" team2="12"/>
+         <distance dist="530" team1="23" team2="13"/>
+         <distance dist="1042" team1="23" team2="14"/>
+         <distance dist="216" team1="23" team2="15"/>
+         <distance dist="760" team1="23" team2="16"/>
+         <distance dist="354" team1="23" team2="17"/>
+         <distance dist="349" team1="23" team2="18"/>
+         <distance dist="535" team1="23" team2="19"/>
+         <distance dist="395" team1="23" team2="20"/>
+         <distance dist="378" team1="23" team2="21"/>
+         <distance dist="797" team1="23" team2="22"/>
+         <distance dist="0" team1="23" team2="23"/>
+         <distance dist="188" team1="23" team2="24"/>
+         <distance dist="443" team1="23" team2="25"/>
+         <distance dist="526" team1="24" team2="0"/>
+         <distance dist="645" team1="24" team2="1"/>
+         <distance dist="409" team1="24" team2="2"/>
+         <distance dist="671" team1="24" team2="3"/>
+         <distance dist="806" team1="24" team2="4"/>
+         <distance dist="624" team1="24" team2="5"/>
+         <distance dist="119" team1="24" team2="6"/>
+         <distance dist="511" team1="24" team2="7"/>
+         <distance dist="424" team1="24" team2="8"/>
+         <distance dist="259" team1="24" team2="9"/>
+         <distance dist="365" team1="24" team2="10"/>
+         <distance dist="579" team1="24" team2="11"/>
+         <distance dist="577" team1="24" team2="12"/>
+         <distance dist="401" team1="24" team2="13"/>
+         <distance dist="932" team1="24" team2="14"/>
+         <distance dist="42" team1="24" team2="15"/>
+         <distance dist="576" team1="24" team2="16"/>
+         <distance dist="333" team1="24" team2="17"/>
+         <distance dist="164" team1="24" team2="18"/>
+         <distance dist="447" team1="24" team2="19"/>
+         <distance dist="210" team1="24" team2="20"/>
+         <distance dist="204" team1="24" team2="21"/>
+         <distance dist="829" team1="24" team2="22"/>
+         <distance dist="188" team1="24" team2="23"/>
+         <distance dist="0" team1="24" team2="24"/>
+         <distance dist="397" team1="24" team2="25"/>
+         <distance dist="191" team1="25" team2="0"/>
+         <distance dist="707" team1="25" team2="1"/>
+         <distance dist="463" team1="25" team2="2"/>
+         <distance dist="300" team1="25" team2="3"/>
+         <distance dist="455" team1="25" team2="4"/>
+         <distance dist="408" team1="25" team2="5"/>
+         <distance dist="399" team1="25" team2="6"/>
+         <distance dist="192" team1="25" team2="7"/>
+         <distance dist="496" team1="25" team2="8"/>
+         <distance dist="207" team1="25" team2="9"/>
+         <distance dist="195" team1="25" team2="10"/>
+         <distance dist="244" team1="25" team2="11"/>
+         <distance dist="254" team1="25" team2="12"/>
+         <distance dist="225" team1="25" team2="13"/>
+         <distance dist="620" team1="25" team2="14"/>
+         <distance dist="431" team1="25" team2="15"/>
+         <distance dist="605" team1="25" team2="16"/>
+         <distance dist="95" team1="25" team2="17"/>
+         <distance dist="381" team1="25" team2="18"/>
+         <distance dist="131" team1="25" team2="19"/>
+         <distance dist="394" team1="25" team2="20"/>
+         <distance dist="337" team1="25" team2="21"/>
+         <distance dist="466" team1="25" team2="22"/>
+         <distance dist="443" team1="25" team2="23"/>
+         <distance dist="397" team1="25" team2="24"/>
+         <distance dist="0" team1="25" team2="25"/>
+      </Distances>
+      <TeamCoordinates>
+         <coordinates team="0" x="190" y="-15"/>
+         <coordinates team="1" x="-100" y="-572"/>
+         <coordinates team="2" x="-112" y="-314"/>
+         <coordinates team="3" x="265" y="330"/>
+         <coordinates team="4" x="342" y="469"/>
+         <coordinates team="5" x="223" y="-253"/>
+         <coordinates team="6" x="-344" y="147"/>
+         <coordinates team="7" x="173" y="-32"/>
+         <coordinates team="8" x="-130" y="-342"/>
+         <coordinates team="9" x="-136" y="197"/>
+         <coordinates team="10" x="16" y="-73"/>
+         <coordinates team="11" x="155" y="339"/>
+         <coordinates team="12" x="141" y="356"/>
+         <coordinates team="13" x="43" y="-106"/>
+         <coordinates team="14" x="557" y="-242"/>
+         <coordinates team="15" x="-360" y="-3"/>
+         <coordinates team="16" x="-58" y="-476"/>
+         <coordinates team="17" x="-29" y="164"/>
+         <coordinates team="18" x="-249" y="-111"/>
+         <coordinates team="19" x="112" y="0"/>
+         <coordinates team="20" x="-232" y="-154"/>
+         <coordinates team="21" x="-189" y="-114"/>
+         <coordinates team="22" x="380" y="449"/>
+         <coordinates team="23" x="-379" y="211"/>
+         <coordinates team="24" x="-333" y="29"/>
+         <coordinates team="25" x="53" y="117"/>
+      </TeamCoordinates>
+      <COEWeights/>
+      <Costs/>
+   </Data>
+   <Resources>
+      <LeagueGroups/>
+      <Leagues>
+         <league id="0" leagueGroups="" name="League 0"/>
+      </Leagues>
+      <TeamGroups>
+         <teamGroup id="0" name="All teams"/>
+      </TeamGroups>
+      <Teams>
+         <team id="0" league="0" name="Team 0" teamGroups="0"/>
+         <team id="1" league="0" name="Team 1" teamGroups="0"/>
+         <team id="2" league="0" name="Team 2" teamGroups="0"/>
+         <team id="3" league="0" name="Team 3" teamGroups="0"/>
+         <team id="4" league="0" name="Team 4" teamGroups="0"/>
+         <team id="5" league="0" name="Team 5" teamGroups="0"/>
+         <team id="6" league="0" name="Team 6" teamGroups="0"/>
+         <team id="7" league="0" name="Team 7" teamGroups="0"/>
+         <team id="8" league="0" name="Team 8" teamGroups="0"/>
+         <team id="9" league="0" name="Team 9" teamGroups="0"/>
+         <team id="10" league="0" name="Team 10" teamGroups="0"/>
+         <team id="11" league="0" name="Team 11" teamGroups="0"/>
+         <team id="12" league="0" name="Team 12" teamGroups="0"/>
+         <team id="13" league="0" name="Team 13" teamGroups="0"/>
+         <team id="14" league="0" name="Team 14" teamGroups="0"/>
+         <team id="15" league="0" name="Team 15" teamGroups="0"/>
+         <team id="16" league="0" name="Team 16" teamGroups="0"/>
+         <team id="17" league="0" name="Team 17" teamGroups="0"/>
+         <team id="18" league="0" name="Team 18" teamGroups="0"/>
+         <team id="19" league="0" name="Team 19" teamGroups="0"/>
+         <team id="20" league="0" name="Team 20" teamGroups="0"/>
+         <team id="21" league="0" name="Team 21" teamGroups="0"/>
+         <team id="22" league="0" name="Team 22" teamGroups="0"/>
+         <team id="23" league="0" name="Team 23" teamGroups="0"/>
+         <team id="24" league="0" name="Team 24" teamGroups="0"/>
+         <team id="25" league="0" name="Team 25" teamGroups="0"/>
+      </Teams>
+      <SlotGroups/>
+      <Slots>
+         <slot id="0" name="Slot 0" slotGroup=""/>
+         <slot id="1" name="Slot 1" slotGroup=""/>
+         <slot id="2" name="Slot 2" slotGroup=""/>
+         <slot id="3" name="Slot 3" slotGroup=""/>
+         <slot id="4" name="Slot 4" slotGroup=""/>
+         <slot id="5" name="Slot 5" slotGroup=""/>
+         <slot id="6" name="Slot 6" slotGroup=""/>
+         <slot id="7" name="Slot 7" slotGroup=""/>
+         <slot id="8" name="Slot 8" slotGroup=""/>
+         <slot id="9" name="Slot 9" slotGroup=""/>
+         <slot id="10" name="Slot 10" slotGroup=""/>
+         <slot id="11" name="Slot 11" slotGroup=""/>
+         <slot id="12" name="Slot 12" slotGroup=""/>
+         <slot id="13" name="Slot 13" slotGroup=""/>
+         <slot id="14" name="Slot 14" slotGroup=""/>
+         <slot id="15" name="Slot 15" slotGroup=""/>
+         <slot id="16" name="Slot 16" slotGroup=""/>
+         <slot id="17" name="Slot 17" slotGroup=""/>
+         <slot id="18" name="Slot 18" slotGroup=""/>
+         <slot id="19" name="Slot 19" slotGroup=""/>
+         <slot id="20" name="Slot 20" slotGroup=""/>
+         <slot id="21" name="Slot 21" slotGroup=""/>
+         <slot id="22" name="Slot 22" slotGroup=""/>
+         <slot id="23" name="Slot 23" slotGroup=""/>
+         <slot id="24" name="Slot 24" slotGroup=""/>
+         <slot id="25" name="Slot 25" slotGroup=""/>
+         <slot id="26" name="Slot 26" slotGroup=""/>
+         <slot id="27" name="Slot 27" slotGroup=""/>
+         <slot id="28" name="Slot 28" slotGroup=""/>
+         <slot id="29" name="Slot 29" slotGroup=""/>
+         <slot id="30" name="Slot 30" slotGroup=""/>
+         <slot id="31" name="Slot 31" slotGroup=""/>
+         <slot id="32" name="Slot 32" slotGroup=""/>
+         <slot id="33" name="Slot 33" slotGroup=""/>
+         <slot id="34" name="Slot 34" slotGroup=""/>
+         <slot id="35" name="Slot 35" slotGroup=""/>
+         <slot id="36" name="Slot 36" slotGroup=""/>
+         <slot id="37" name="Slot 37" slotGroup=""/>
+         <slot id="38" name="Slot 38" slotGroup=""/>
+         <slot id="39" name="Slot 39" slotGroup=""/>
+         <slot id="40" name="Slot 40" slotGroup=""/>
+         <slot id="41" name="Slot 41" slotGroup=""/>
+         <slot id="42" name="Slot 42" slotGroup=""/>
+         <slot id="43" name="Slot 43" slotGroup=""/>
+         <slot id="44" name="Slot 44" slotGroup=""/>
+         <slot id="45" name="Slot 45" slotGroup=""/>
+         <slot id="46" name="Slot 46" slotGroup=""/>
+         <slot id="47" name="Slot 47" slotGroup=""/>
+         <slot id="48" name="Slot 48" slotGroup=""/>
+         <slot id="49" name="Slot 49" slotGroup=""/>
+      </Slots>
+   </Resources>
+   <Constraints>
+      <BasicConstraints/>
+      <CapacityConstraints>
+         <CA3 intp="4" max="3" min="0" mode1="H" mode2="GAMES" penalty="1" teamGroups1="0" teamGroups2="0" teams1="" teams2="" type="HARD"/>
+         <CA3 intp="4" max="3" min="0" mode1="H" mode2="GAMES" penalty="1" teamGroups1="0" teamGroups2="0" teams1="" teams2="" type="HARD"/>
+      </CapacityConstraints>
+      <GameConstraints/>
+      <BreakConstraints/>
+      <FairnessConstraints/>
+      <SeparationConstraints>
+         <SE1 min="1" penalty="1" teamGroups="0" teams="" type="HARD"/>
+      </SeparationConstraints>
+   </Constraints>
+</Instance>
