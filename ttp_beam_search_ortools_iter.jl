@@ -18,6 +18,7 @@ function main()
 
     if(length(ARGS) != 14)
         println("Usage: $PROGRAM_FILE <instance-file> <streak-limit> <no-repeat> <time-limit> <start-beam-width> <beam-width-limit> <beam-width-increase-factor> <dead_teams_check> <team-ordering> <reflective-symmetry-breaking> <relative-sigma> <runs-per-beam-width> <cvrp-heuristic-respect-home-games> <first-k-layers-noisy>")
+    	flush(stdout)
         exit(1)
     end
 
@@ -37,7 +38,7 @@ function main()
     first_k_layers_noisy = parse(Int64, ARGS[14])
     ttp_instance = TTPInstance.read(instance_file, streak_limit, no_repeat)
 
-    #@printf("Solving TTP instance %s with beam search and ortools, beam width %d, streak limit %d, no repeaters set to %s\n", instance_file, beam_width, streak_limit, no_repeat ? "true" : "false")
+    #@printf("Solving TTP instance %s with beam search and ortools, start beam width %d, streak limit %d, no repeaters set to %s\n", instance_file, start_beam_width, streak_limit, no_repeat ? "true" : "false")
     if cvrp_heuristic_respect_home_games
         heuristic_estimates_cache = Dict{NTuple{6,Int64}, UInt64}()
     else
@@ -66,6 +67,7 @@ function main()
     root_node = TTPSolver.root_node(ttp_instance, nothing, heuristic_estimates_cache)
     iteration_number = 0
     print_header(log_table)
+    flush(stdout)
     time_limit_hit = false
     while true
         if beam_width > beam_width_limit || time_limit_hit
@@ -118,6 +120,7 @@ function main()
             set_value!(log_table, :flag, flag)
 
             print_line(log_table)
+    	    flush(stdout)
 
         end
         beam_width = Int(round(beam_width*beam_width_increase_factor))
@@ -125,18 +128,24 @@ function main()
 
     if beam_width > beam_width_limit
         println("beam width limit hit")
+    	flush(stdout)
     end
     if time_limit_hit
         println("time limit hit")
+    	flush(stdout)
     end
 
     if best_terminal !== nothing && best_objective < typemax(Int)
         @printf("best objective found: %d\n", best_objective)
+    	flush(stdout)
         schedule = convert(Matrix{Int64}, TTPSolver.solution_to_rounds_matrix(ttp_instance, best_terminal.solution))
         display("text/plain", schedule)
         println()
+    	flush(stdout)
+    	TTPSolver.create_xml_from_matrix(schedule, instance_file, best_objective)
     else
         println("no feasible solution found")
+    	flush(stdout)
     end
 end
 

@@ -55,15 +55,59 @@ For the latter, there is also an iterative variant, which increases the beam wid
 > A simulated annealing approach to the traveling tournament problem.
 > Journal of Scheduling, 9(2):177–193, 2006.
 
-ADDED BY DAVID
 
-> I had to install the package PyCall first in julie
-> $ julia
-> $ import Pkg;
-> $ Pkg.add("PyCall")
-> $ ENV["PYTHON"] = "/usr/bin/python3"
-> $ Pkg.build("PyCall")
-> Without the environment setting, I got an error for the PyCall. See also: https://discourse.julialang.org/t/build-pycall-error/59252
+## Additional Setup Notes by David
 
-Additionally the command line provided above for ttp_beam_search.jl requires one argument too few. I think it should be:
-$ julia ttp_beam_search.jl insts/circ/circ14.txt 3 true data/circ14_cvrph.pkl.bz2 10 true random none 0.001 -1 false
+### Julia and PyCall Installation:
+
+1. Install the PyCall package in Julia:
+   \```julia
+   julia
+   import Pkg
+   Pkg.add("PyCall")
+   \```
+2. Set the Python environment to avoid errors with PyCall. See also: [PyCall Build Error](https://discourse.julialang.org/t/build-pycall-error/59252).
+   \```julia
+   ENV["PYTHON"] = "/usr/bin/python3"
+   Pkg.build("PyCall")
+   \```
+
+### Correction to the Command Line Argument:
+
+- The command line previously provided for `ttp_beam_search.jl` was missing an argument. The corrected version is as follows:
+  \```shell
+  julia ttp_beam_search.jl insts/circ/circ14.txt 3 true data/circ14_cvrph.pkl.bz2 10 true random none 0.001 -1 false
+  \```
+
+
+### Running on HPC:
+
+1. **Module and Python Setup**:
+   - Load necessary modules, e.g., SciPy-bundle, and identify the Python path using `which python3`. Then, configure Julia to use this specific Python version:
+     \```shell
+     module load SciPy-bundle
+     which python3
+     # Store the path and configure Julia
+     julia
+     ENV["PYTHON"] = "/path/to/desired/python"
+     using Pkg
+     Pkg.build("PyCall")
+     \```
+
+2. **Python Module Installation**:
+   - Install the `ortools` package in Python to support the necessary operations:
+     \```shell
+     pip install ortools
+     \```
+
+3. **Code Adaptation for Progress Monitoring**:
+   - Modify the code to include `flush(stdout)` after each print statement, enabling real-time tracking of the algorithm's progress.
+
+4. **XML File Handling**:
+   - The code has been adapted for reading XML files, specifically in `lib/ttp_instance.jl`.
+
+With these adjustments, the algorithm should be working on HPC.
+
+
+
+
